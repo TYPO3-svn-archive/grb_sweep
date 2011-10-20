@@ -1,0 +1,44 @@
+plugin.tx_grbsweep {
+	view {
+		templateRootPath = {$plugin.tx_grbsweep.view.templateRootPath}
+		partialRootPath = {$plugin.tx_grbsweep.view.partialRootPath}
+		layoutRootPath = {$plugin.tx_grbsweep.view.layoutRootPath}
+	}
+	persistence {
+		storagePid = {$plugin.tx_grbsweep.persistence.storagePid}
+	}
+}
+
+plugin.tx_grbsweep._CSS_DEFAULT_STYLE (
+	input.f3-form-error {
+		background-color:#FF9F9F;
+		border: 1px #FF0000 solid;
+	}
+
+	.tx-grb-sweep table {
+		border-collapse:separate;
+		border-spacing:10px;
+	}
+
+	.tx-grb-sweep table th {
+		font-weight:bold;
+	}
+
+	.tx-grb-sweep table td {
+		vertical-align:top;
+	}
+)
+
+
+
+ # Module configuration
+module.tx_grbsweep {
+	persistence {
+		storagePid = {$module.tx_grbsweep.persistence.storagePid}
+	}
+	view {
+		templateRootPath = {$module.tx_grbsweep.view.templateRootPath}
+		partialRootPath = {$module.tx_grbsweep.view.partialRootPath}
+		layoutRootPath = {$module.tx_grbsweep.view.layoutRootPath}
+	}
+}

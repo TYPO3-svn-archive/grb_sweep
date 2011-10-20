@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'grb_sweep'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_grbsweep_domain_model_sweep">Sweep</label>
+			<label index="tx_grbsweep_domain_model_sweep.sweep_start">Sweep Start</label>
+			<label index="tx_grbsweep_domain_model_sweep.sweep_end">Sweep End</label>
+			<label index="tx_grbsweep_domain_model_sweep.max_attendees_per_fe_user">Max Attendees Per Fe User</label>
+			<label index="tx_grbsweep_domain_model_sweep.steps">Steps</label>
+			<label index="tx_grbsweep_domain_model_sweep.attendees">Attendees</label>
+			<label index="tx_grbsweep_domain_model_feuser">Fe User</label>
+			<label index="tx_grbsweep_domain_model_step">Step</label>
+			<label index="tx_grbsweep_domain_model_step.title">Title</label>
+			<label index="tx_grbsweep_domain_model_step.description">Description</label>
+			<label index="tx_grbsweep_domain_model_step.image">Image</label>
+			<label index="tx_grbsweep_domain_model_step.items">Items</label>
+			<label index="tx_grbsweep_domain_model_item">Item</label>
+			<label index="tx_grbsweep_domain_model_item.question">Question</label>
+			<label index="tx_grbsweep_domain_model_item.description">Description</label>
+			<label index="tx_grbsweep_domain_model_item.image">Image</label>
+			<label index="tx_grbsweep_domain_model_item.is_required">Is Required</label>
+			<label index="tx_grbsweep_domain_model_item.checkboxes">Checkboxes</label>
+			<label index="tx_grbsweep_domain_model_item.radiobuttons">Radiobuttons</label>
+			<label index="tx_grbsweep_domain_model_item.text">Text</label>
+			<label index="tx_grbsweep_domain_model_item.textarea">Textarea</label>
+			<label index="tx_grbsweep_domain_model_item.fileupload">Fileupload</label>
+			<label index="tx_grbsweep_domain_model_attendee">Attendee</label>
+			<label index="tx_grbsweep_domain_model_attendee.name">Name</label>
+			<label index="tx_grbsweep_domain_model_attendee.pre_name">Pre Name</label>
+			<label index="tx_grbsweep_domain_model_attendee.email">Email</label>
+			<label index="tx_grbsweep_domain_model_attendee.fe_user">Fe User</label>
+			<label index="tx_grbsweep_domain_model_checkbox">Checkbox</label>
+			<label index="tx_grbsweep_domain_model_checkbox.possibility">Possibility</label>
+			<label index="tx_grbsweep_domain_model_checkbox.correct">Correct</label>
+			<label index="tx_grbsweep_domain_model_radiobutton">Radiobutton</label>
+			<label index="tx_grbsweep_domain_model_radiobutton.possibility">Possibility</label>
+			<label index="tx_grbsweep_domain_model_radiobutton.correct">Correct</label>
+			<label index="tx_grbsweep_domain_model_text">Text</label>
+			<label index="tx_grbsweep_domain_model_text.answer">Answer</label>
+			<label index="tx_grbsweep_domain_model_textarea">Textarea</label>
+			<label index="tx_grbsweep_domain_model_textarea.answer">Answer</label>
+			<label index="tx_grbsweep_domain_model_fileupload">Fileupload</label>
+			<label index="tx_grbsweep_domain_model_fileupload.answer">Answer</label>
+			<label index="tx_grbsweep_domain_model_fileupload.file">File</label>
+		</languageKey>
+	</data>
+</T3locallang>
